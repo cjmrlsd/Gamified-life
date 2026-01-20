@@ -1,61 +1,99 @@
-# 🌳 DEBT-ARIA: THE BOSS RUSH (v1.0)
-> **Player:** [Your Name] | **Class:** WFH Mage | **Status:** 🤒 *Sore Throat Debuff*
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
----
+    body {
+        background-color: #1a1a1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Press+Start+2P', cursive;
+        color: white;
+    }
 
-## 📊 PLAYER VITALITY
-| Attribute | Level | Progress Bar |
-| :--- | :---: | :--- |
-| **HP (Health)** | 8 Days Sick | ![HP](https://img.shields.io/badge/HP-20%2F100-red?style=for-the-badge) |
-| **MP (Money Power)** | Debt-Ridden | ![MP](https://img.shields.io/badge/MP-₱71.8k-blue?style=for-the-badge) |
-| **EXP (Experience)** | Month 1 | ![EXP](https://img.shields.io/badge/EXP-Lvl%201-green?style=for-the-badge) |
+    /* Game Container */
+    .game-screen {
+        width: 600px;
+        height: 450px;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                    url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80'); /* Pixel Art Placeholder */
+        background-size: cover;
+        border: 8px solid #3d3d3d;
+        position: relative;
+        image-rendering: pixelated;
+    }
 
----
+    /* Dialogue Box */
+    .text-box {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        background: rgba(40, 44, 52, 0.95);
+        border: 4px solid #f1c40f;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 12px;
+        line-height: 1.8;
+        box-shadow: 0 0 0 4px #282c34;
+    }
 
-## ⚔️ BOSS ENCOUNTERS (Click to Expand)
+    .cursor {
+        display: inline-block;
+        width: 10px;
+        height: 15px;
+        background: #f1c40f;
+        animation: blink 0.8s infinite;
+    }
 
-<details>
-<summary>🐲 <b>BOSS: THE G-EATER DUO (AXM & MKN)</b> - <i>Click to View HP</i></summary>
+    /* HUD Stats */
+    .hud {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-- [ ] **AXM Phase:** `₱18,332.24`
-- [ ] **MKN Phase:** `₱17,105.68`
-- *Strategy: Use "Salary Slash" when back at work.*
-</details>
+    .stat-bar {
+        width: 150px;
+        height: 15px;
+        background: #333;
+        border: 2px solid #fff;
+    }
 
-<details>
-<summary>👁️ <b>BOSS: THE WALL OF MAYA</b> - <i>Click to View HP</i></summary>
+    .hp-fill { width: 25%; background: #e74c3c; height: 100%; }
+    .mp-fill { width: 60%; background: #3498db; height: 100%; }
 
-- [ ] **Phase 1:** `₱5,353.00` (Due Jan 30)
-- [ ] **Phase 2:** `₱5,353.00` (Due Jan 30)
-- *Strategy: Critical Hit needed by end of month!*
-</details>
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
 
-<details>
-<summary>🧠 <b>BOSS: BRAIN OF TIKTOK</b> - <i>Click to View HP</i></summary>
+    /* Editable Text */
+    [contenteditable]:focus { outline: none; }
+</style>
+</head>
+<body>
 
-- [ ] **Total HP:** `₱5,179.57`
-- *Strategy: Slow burn. Aim for May 2026 elimination.*
-</details>
+<div class="game-screen">
+    <div class="hud">
+        <div>HP <div class="stat-bar"><div class="hp-fill"></div></div></div>
+        <div>MP <div class="stat-bar"><div class="mp-fill"></div></div></div>
+        <div style="font-size: 10px; color: #f1c40f; margin-top: 5px;">GOLD: ₱0.00</div>
+    </div>
 
----
+    <div class="text-box">
+        <span contenteditable="true">
+            The Hero CJ has been afflicted by the "SICKNESS" since January 13th! 
+            <br><br>
+            Her quest to celebrate her monthsary with LEXI is in peril! She must obtain the cure KISSPIRIN 💊 to recover.
+        </span>
+        <div class="cursor"></div>
+    </div>
+</div>
 
-## 🛡️ THE GRIND (Task List)
-*Kill these "mobs" to clear your screen and gain Mental Mana.*
-
-- [ ] 💀 **Skele-Karl** (Monitor) | `₱3,000.00`
-- [ ] 🧛 **Mabilis Wraith** | `₱1,779.00`
-- [ ] 💧 **Blue Slime** (GCredit) | `₱1,414.50`
-- [ ] 🎀 **Pink Slime** (SPayLater) | `₱1,081.10`
-
----
-
-## 🎒 INVENTORY & LOOT DROP
-- [ ] 💎 **Ex-GF's Debt (₱10,000)** - *If checked: Use to "Auto-Kill" all Slimes & Skele-Karl!*
-- [x] 🏥 **ENT Raid Key** (Scheduled for Jan 21 @ 11AM)
-- [x] 💖 **Monthsary Buff** (Lexi) - *Active today!*
-
----
-
-## 📜 WORLD LOG (History)
-*Every time you make a payment, record your "Victory" here!*
-- **Jan 20, 2026:** Created the Debt-Aria Quest Log. First monthsary with Lexi!
+</body>
+</html>
