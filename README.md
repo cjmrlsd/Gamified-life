@@ -1,51 +1,61 @@
-# 🌳 DEBT-ARIA: THE BOSS RUSH 🌳
-> **Player:** [Your Name] | **Class:** WFH Mage | **Location:** Quezon City
-> **Status:** 🤒 *Sore Throat Debuff (Day 8)*
-> **Next Raid:** 🏥 ENT Specialist Appointment - Jan 21 @ 11:00 AM
+# 🌳 DEBT-ARIA: THE BOSS RUSH (v1.0)
+> **Player:** [Your Name] | **Class:** WFH Mage | **Status:** 🤒 *Sore Throat Debuff*
 
 ---
 
-## ⚔️ ACTIVE BOSSES (The Hard Mode)
-*Total Dungeon HP: ₱71,892.30*
-
-| Boss | Enemy Name | HP (Balance) | Health Bar | Status |
-| :---: | :--- | :--- | :--- | :--- |
-| 🐲 | **G-Eater: AXM** | `₱18,332.24` | ![#f8a1a1](https://via.placeholder.com/150x20/f8a1a1?text=++++++++++++++++) | 🔴 ACTIVE |
-| 🐲 | **G-Eater: MKN** | `₱17,105.68` | ![#f8a1a1](https://via.placeholder.com/150x20/f8a1a1?text=++++++++++++++++) | 🔴 ACTIVE |
-| 👁️ | **The Wall of Maya**| `₱10,706.00` | ![#f8a1a1](https://via.placeholder.com/150x20/f8a1a1?text=++++++++++++) | 🔴 ACTIVE |
-| 🧠 | **The Brain of TikTok**| `₱5,179.57` | ![#f8a1a1](https://via.placeholder.com/150x20/f8a1a1?text=++++++++) | 🔴 ACTIVE |
-| 📦 | **GGives Combined** | `₱7,234.62` | ![#f8a1a1](https://via.placeholder.com/150x20/f8a1a1?text=++++++++++) | 🔴 ACTIVE |
+## 📊 PLAYER VITALITY
+| Attribute | Level | Progress Bar |
+| :--- | :---: | :--- |
+| **HP (Health)** | 8 Days Sick | ![HP](https://img.shields.io/badge/HP-20%2F100-red?style=for-the-badge) |
+| **MP (Money Power)** | Debt-Ridden | ![MP](https://img.shields.io/badge/MP-₱71.8k-blue?style=for-the-badge) |
+| **EXP (Experience)** | Month 1 | ![EXP](https://img.shields.io/badge/EXP-Lvl%201-green?style=for-the-badge) |
 
 ---
 
-## 🛡️ MINI-BOSSES & SLIMES (The Grind)
-- [ ] 💀 **Skele-Karl (Monitor)** | `₱3,000.00` | *Loot: +10 Desktop Aesthetics*
-- [ ] 🧛 **Mabilis Wraith** | `₱1,779.00` | *Loot: +5 Mental Peace*
-- [ ] 💧 **GCredit Blue Slime** | `₱1,414.50` | *Loot: Mana Potion*
-- [ ] 🎀 **SPayLater Pink Slime** | `₱1,081.10` | *Loot: Inventory Slot*
+## ⚔️ BOSS ENCOUNTERS (Click to Expand)
+
+<details>
+<summary>🐲 <b>BOSS: THE G-EATER DUO (AXM & MKN)</b> - <i>Click to View HP</i></summary>
+
+- [ ] **AXM Phase:** `₱18,332.24`
+- [ ] **MKN Phase:** `₱17,105.68`
+- *Strategy: Use "Salary Slash" when back at work.*
+</details>
+
+<details>
+<summary>👁️ <b>BOSS: THE WALL OF MAYA</b> - <i>Click to View HP</i></summary>
+
+- [ ] **Phase 1:** `₱5,353.00` (Due Jan 30)
+- [ ] **Phase 2:** `₱5,353.00` (Due Jan 30)
+- *Strategy: Critical Hit needed by end of month!*
+</details>
+
+<details>
+<summary>🧠 <b>BOSS: BRAIN OF TIKTOK</b> - <i>Click to View HP</i></summary>
+
+- [ ] **Total HP:** `₱5,179.57`
+- *Strategy: Slow burn. Aim for May 2026 elimination.*
+</details>
 
 ---
 
-## 💰 THE TREASURY & INVENTORY
-| Source/Item | Type | Amount | Availability |
-| :--- | :--- | :--- | :--- |
-| 💎 **Ex-GF Receivable** | Overdue Loot | `₱10,000.00` | **OVERDUE** |
-| 🧪 **Healing Potion** | ENT Consult | `TBD` | *Jan 21 Raid* |
-| 🎁 **Monthsary Buff** | Lexi | `❤️` | **ACTIVE TODAY** |
+## 🛡️ THE GRIND (Task List)
+*Kill these "mobs" to clear your screen and gain Mental Mana.*
+
+- [ ] 💀 **Skele-Karl** (Monitor) | `₱3,000.00`
+- [ ] 🧛 **Mabilis Wraith** | `₱1,779.00`
+- [ ] 💧 **Blue Slime** (GCredit) | `₱1,414.50`
+- [ ] 🎀 **Pink Slime** (SPayLater) | `₱1,081.10`
 
 ---
 
-## 📜 QUEST LOG & STRATEGY
-- [ ] **Health Quest:** Complete ENT Checkup and clear CBC markers.
-- [ ] **Loot Drop:** If ₱10k hits, instantly "Instant-Kill" Skele-Karl and all Slimes.
-- [ ] **Work Mission:** Get medical clearance to return to 4PM-1AM Shift.
+## 🎒 INVENTORY & LOOT DROP
+- [ ] 💎 **Ex-GF's Debt (₱10,000)** - *If checked: Use to "Auto-Kill" all Slimes & Skele-Karl!*
+- [x] 🏥 **ENT Raid Key** (Scheduled for Jan 21 @ 11AM)
+- [x] 💖 **Monthsary Buff** (Lexi) - *Active today!*
 
 ---
 
-## 🛠️ PLAYER STATS
-- **Health:** 🟥🟥⬜⬜⬜⬜⬜⬜⬜⬜ (*Neck Pain & Throat Debuff*)
-- **Mana:** 🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜ (*Resting...*)
-- **Armor:** 🛡️ `₱0.00` (Saving for Thailand July 2026 🇹🇭)
-
----
-*Created on 1st Monthsary - Jan 20, 2026*
+## 📜 WORLD LOG (History)
+*Every time you make a payment, record your "Victory" here!*
+- **Jan 20, 2026:** Created the Debt-Aria Quest Log. First monthsary with Lexi!
